@@ -54,6 +54,8 @@ bank.deposit(500.0, '24/05/23');
 
 // statement() - prints a bank statement
 bank.statement();
+
+// exit the program with Ctrl+D or type .exit
 ```
 
 ## Notes
