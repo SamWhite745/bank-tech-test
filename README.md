@@ -16,7 +16,7 @@ To run the program you can use [Node](https://nodejs.org/en).
 
 ```sh
 # Create the project directory
-$ git clone ...
+$ git clone https://github.com/SamWhite745/bank-tech-test
 $ cd bank-tech-test
 
 # install jest "globally"
