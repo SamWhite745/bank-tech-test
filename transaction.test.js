@@ -1,4 +1,3 @@
-const { BADFLAGS } = require('dns');
 const Transaction = require('./transaction');
 
 describe('transaction', () => {
