@@ -1,10 +1,13 @@
 class Transaction {
-  constructor() {
-    
+  constructor({date, credit = "", debit = "", balance}) {
+    this.date = date;
+    this.credit = credit;
+    this.debit = debit;
+    this.balance = balance;
   }
 
   print () {
-    return "Something"
+    return `${this.date} || ${this.credit} || ${this.debit} || ${this.balance}`
   }
 }
 
