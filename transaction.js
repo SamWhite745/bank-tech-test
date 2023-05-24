@@ -7,7 +7,7 @@ class Transaction {
   }
 
   print () {
-    return `${this.date} || ${this.credit} || ${this.debit} || ${this.balance}`
+    return `${this.date} || ${this.credit != "" ? this.credit.toFixed(2) : ""} || ${this.debit != "" ? this.debit.toFixed(2) : ""} || ${this.balance.toFixed(2)}`
   }
 }
 
