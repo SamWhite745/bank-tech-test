@@ -12,6 +12,12 @@ class Bank {
     this.transactions.push(transaction);
   }
 
+  withdraw(money, date) {
+    this.balance -= money;
+    const transaction = new Transaction({date: date, debit: money, balance: this.balance});
+    this.transactions.push(transaction);
+  }
+
   statement () {
     console.log('date || credit || debit || balance');
     this.transactions.forEach((transaction) => console.log(transaction.print()));
